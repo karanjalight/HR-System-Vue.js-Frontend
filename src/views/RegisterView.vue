@@ -28,7 +28,7 @@ import Employer from '../components/Employer.vue';
       <br>
       <input type="text" placeholder="Number of employees">
       <br>
-      <RouterLink to="/"> <button> Register </button></RouterLink>
+      <RouterLink to="/home"> <button> Register </button></RouterLink>
       <br>
       <p>Are you already registered? proceed to <RouterLink to="/login">Login</RouterLink></p>
       
