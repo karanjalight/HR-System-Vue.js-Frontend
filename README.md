@@ -1,6 +1,8 @@
-# HR-FRONTEND
+# KaziQuest HR-FRONTEND
+This frontend app is built to serve a Django Rest Api. It is a single file component with optimized components.
 
 This template should help get you started developing with Vue 3 in Vite.
+
 
 ## Recommended IDE Setup
 
