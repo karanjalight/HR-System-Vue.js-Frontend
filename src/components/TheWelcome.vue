@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
     <img alt="Vue logo" class="logo"  src="https://kaziquest.com/assets/images/primary-logo.png" width="325" height="125" />
     <br/>
-    <RouterLink to="/about">Need Help?</RouterLink>
+    <RouterLink to="/home">Need Help?</RouterLink>
 
     
   </header>
@@ -66,11 +66,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
 
 
-    Add new items inventories  E.g Laptops, Hard-disks, Cars
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">Add Company assets</a>
-    <br>
     To see exisiting Company Inventories follow the link : 
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">View assets</a>
+      <RouterLink to="/view-inventory">Company assets</RouterLink>
+    <br>
+  
     
   </WelcomeItem>
 
@@ -85,13 +84,10 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <h4 style='color:black; font-size:30px; font-weight:700; letter-spacing: 0.4px; color: #333;'> Company Inventory </h4>
 
-    Company Asset was give to? Inventory assesment, Create New Inventory Assignment
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Assign Company Assets</a>.
-   
+    Company Asset was given to? Inventory assesment, Create New Inventory Assignment
+    <RouterLink to="/view-inventory">Assign Company Assets</RouterLink>
     <br />
 
-    View Who took a company assests <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Inventory Out List</a>.
-    
   </WelcomeItem>
 
 
@@ -105,11 +101,11 @@ import { RouterLink, RouterView } from 'vue-router'
     <h4 style='color:black; font-size:30px; font-weight:700; letter-spacing: 0.4px; color: #333;'> Employee On Leave</h4>
 
     Create a new Off day record for employees to track days off.
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener"> Create new Leave for employee</a>.
+    <RouterLink to="/view-inventory"> Create new Leave for employee </RouterLink>
     <br>
 
     Click to see all existing Leave Records
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener"> View Leave Records</a>.
+  <RouterLink to="/view-inventory">View Leave Records</RouterLink>
   </WelcomeItem>
 </template>
 
