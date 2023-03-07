@@ -237,19 +237,19 @@ import { RouterLink, RouterView } from 'vue-router'
     methods: {
       async fetchData() { 
         /* Employee Fetch data */     
-        const response = await fetch("http://127.0.0.1:8000/employee/");      
+        const response = await fetch("https://ambunya.pythonanywhere.com/employee/");      
         this.data = await response.json();
 
         /* Asset fetch data */
-        const assets = await fetch("http://127.0.0.1:8000/asset/");      
+        const assets = await fetch("https://ambunya.pythonanywhere.com/asset/");      
         this.asset = await assets.json();
 
         /* On Leave Fetch data */
-        const leaves = await fetch("http://127.0.0.1:8000/timeoff/");      
+        const leaves = await fetch("https://ambunya.pythonanywhere.com/timeoff/");      
         this.leave = await leaves.json();
 
         /* inventory fetch */
-        const inventorys = await fetch("http://127.0.0.1:8000/inventory/");      
+        const inventorys = await fetch("https://ambunya.pythonanywhere.com/inventory");      
         this.inventory = await inventorys.json();
       },    
     },
